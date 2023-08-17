@@ -1,6 +1,6 @@
 If you make use of the MVTEC LOCO AD data, please cite the following reference:
 
-``` bibtex 
+```bibtex
 @dataset{MVTEC LOCO AD,
 	author={Paul Bergmann and Kilian Batzner and Michael Fauser and David Sattlegger and Carsten Steger},
 	title={MVTEC LOCO AD},
@@ -9,4 +9,4 @@ If you make use of the MVTEC LOCO AD data, please cite the following reference:
 }
 ```
 
-[🔗 Source](https://www.mvtec.com/company/research/datasets/mvtec-loco)
+[Source](https://www.mvtec.com/company/research/datasets/mvtec-loco)

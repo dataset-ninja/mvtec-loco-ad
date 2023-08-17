@@ -13,8 +13,9 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "MVTEC LOCO AD"
-PROJECT_NAME_FULL: str = "MVTEC LOCO AD"
+PROJECT_NAME: str = "MVTec LOCO AD"
+PROJECT_NAME_FULL: str = "MVTec LOCO AD: MVTec Logical Constraints Anomaly Detection"
+HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -28,8 +29,8 @@ CATEGORY: Category = Category.Construction()
 
 CV_TASKS: List[CVTask] = [
     CVTask.InstanceSegmentation(),
-    CVTask.ObjectDetection(),
     CVTask.SemanticSegmentation(),
+    CVTask.ObjectDetection(),
 ]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
@@ -40,7 +41,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://www.mvtec.com/company/research/datasets/mvtec-loco"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 1730382
+PREVIEW_IMAGE_ID: int = 2048364
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/mvtec-loco-ad"
@@ -95,6 +96,7 @@ def get_settings():
     settings = {
         "project_name": PROJECT_NAME,
         "license": LICENSE,
+        "hide_dataset": HIDE_DATASET,
         "applications": APPLICATIONS,
         "category": CATEGORY,
         "cv_tasks": CV_TASKS,
