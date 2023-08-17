@@ -1,1 +1,1 @@
-MVTEC LOCO AD is under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+MVTec LOCO AD: MVTec Logical Constraints Anomaly Detection is under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

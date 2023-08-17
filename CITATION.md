@@ -1,9 +1,9 @@
-If you make use of the MVTEC LOCO AD data, please cite the following reference:
+If you make use of the MVTec LOCO AD data, please cite the following reference:
 
-```bibtex
-@dataset{MVTEC LOCO AD,
+``` bibtex 
+@dataset{MVTec LOCO AD,
 	author={Paul Bergmann and Kilian Batzner and Michael Fauser and David Sattlegger and Carsten Steger},
-	title={MVTEC LOCO AD},
+	title={MVTec LOCO AD: MVTec Logical Constraints Anomaly Detection},
 	year={2021},
 	url={https://www.mvtec.com/company/research/datasets/mvtec-loco}
 }
