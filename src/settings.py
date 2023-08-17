@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "MVTec LOCO AD"
 PROJECT_NAME_FULL: str = "MVTec LOCO AD: MVTec Logical Constraints Anomaly Detection"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -61,7 +61,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If you have more than the one paper, put the most relatable link as the first element of the list
 PAPER: Optional[
     Union[str, List[str]]
-] = "https://link.springer.com/content/pdf/10.1007/s11263-022-01578-9.pdf"
+] = "https://link.springer.com/article/10.1007/s11263-022-01578-9"
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = [
     "Paul Bergmann",
