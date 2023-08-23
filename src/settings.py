@@ -25,7 +25,7 @@ APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Domain.Industrial(),
     Research.AnomalyDetection(),
 ]
-CATEGORY: Category = Category.Construction()
+CATEGORY: Category = Category.Manufacturing()
 
 CV_TASKS: List[CVTask] = [
     CVTask.InstanceSegmentation(),
