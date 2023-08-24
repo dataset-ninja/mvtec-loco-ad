@@ -31,6 +31,7 @@ CV_TASKS: List[CVTask] = [
     CVTask.InstanceSegmentation(),
     CVTask.SemanticSegmentation(),
     CVTask.ObjectDetection(),
+    CVTask.Classification(),
 ]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
@@ -158,7 +159,11 @@ AUTHORS: Optional[List[str]] = [
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "MVTec Software GmbH, Germany"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "http://www.mvtec.com/"
 
-SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
+SLYTAGSPLIT: Optional[Dict[str, List[str]]] = {
+    'categories': ['breakfast_box','screw_bag','pushpins','splicing_connectors','juice_bottle'],
+    'classification sets': ['good','structural_anomaly','logical_anomaly'],
+    '__POSTTEXT__':"Additionaly, each image has tags for model evaluation: ***saturation_threshold*** and ***relative_saturation***"
+}
 TAGS: Optional[List[str]] = None
 
 SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = ["test"]

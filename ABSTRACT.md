@@ -4,6 +4,14 @@ The authors highlight that existing datasets often focus solely on structural an
 
 <img src="https://github.com/supervisely/supervisely/assets/78355358/c99da33b-dd46-482b-b986-dc5f31f88a73" alt="image" width="800">
 
-This new dataset, termed MVTec LOCO AD, is composed of five object categories relevant to industrial inspection contexts. The authors selected these objects to closely mimic real-world applications. The dataset includes 1772 training images, 304 validation images, and 1568 test images. The authors provide sample images for each category and stress that the training and validation sets exclusively contain anomaly-free images. The test set encompasses both anomaly-free images and images featuring diverse types of logical and structural anomalies. The authors emphasize the independence of the three sets from one another, ensuring distinct physical objects and no overlap between sets.
+This new dataset, termed MVTec LOCO AD, is composed of five object categories relevant to industrial inspection contexts. The authors selected these objects to closely mimic real-world applications. The dataset includes 1772 *train* images, 304 *validation* images, and 1568 *test* images. The authors provide sample images for each category and stress that the training and validation sets exclusively contain anomaly-free images. The test set encompasses both anomaly-free images and images featuring diverse types of logical and structural anomalies. The authors emphasize the independence of the three sets from one another, ensuring distinct physical objects and no overlap between sets.
 
 Each category in the dataset adheres to specific logical constraints, and the authors detail the characteristics of each category and the logical rules governing them. The authors illustrate logical defects and provide examples of how violations of these constraints manifest within the dataset's images.
+
+
+
+For model evaluation purposes, authors selected suitable saturation thresholds for each of the 89 individual defect types that occur in our dataset.  
+
+<img src="https://github.com/supervisely/supervisely/assets/78355358/f1e25f20-a981-4d8e-85e0-9cc90d73c6d8" alt="image" width="800">
+
+For an annotated anomaly A, a ***saturation_threshold*** s is selected. Once the overlap of the predicted region with the ground truth A exceeds s, the anomaly segmentation task is considered as solved. A ***relative_saturation***``=True` indicates that the whole area of the ground truth region is taken as the saturation threshold. In particular, this is the case for all structural anomalies in our dataset.
