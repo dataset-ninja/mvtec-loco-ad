@@ -17,8 +17,8 @@ Each category in the dataset adheres to specific logical constraints, and the au
 | Juice Bottle        | 335               | 54                  | 94                           | 94                         | 142                     | 18             | 800         | 1600         |
 | Total               | 1772              | 304                 | 575                          | 432                        | 561                     | 89             | –          | –           |
 
-For model evaluation purposes, authors selected suitable saturation thresholds for each of the 89 individual defect types that occur in our dataset.
+For model evaluation purposes, authors selected suitable saturation thresholds for each of the 89 individual defect types that occur in the dataset.
 
 <img src="https://github.com/supervisely/supervisely/assets/78355358/f1e25f20-a981-4d8e-85e0-9cc90d73c6d8" alt="image" width="800">
 
-For an annotated anomaly A, a ***saturation_threshold*** s is selected. Once the overlap of the predicted region with the ground truth A exceeds s, the anomaly segmentation task is considered as solved. A ***relative_saturation***``=True` indicates that the whole area of the ground truth region is taken as the saturation threshold. In particular, this is the case for all structural anomalies in our dataset.
+For an annotated anomaly A, a ***saturation_threshold*** s is selected. Once the overlap of the predicted region with the ground truth A exceeds s, the anomaly segmentation task is considered as solved. A ***relative_saturation***`=True` indicates that the whole area of the ground truth region is taken as the saturation threshold. In particular, this is the case for all structural anomalies in our dataset.
