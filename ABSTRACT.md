@@ -2,7 +2,7 @@ The authors of the **MVTec Logical Constraints Anomaly Detection (MVTec LOCO AD)
 
 The authors highlight that existing datasets often focus solely on structural anomalies within industrial inspection scenarios. They note the scarcity of datasets that include both structural and logical anomalies, which are prevalent in real-world manufacturing processes. In response, the authors introduce a dataset inspired by industrial inspection scenarios, carefully balancing the presence of logical and structural anomalies.
 
-<img src="https://github.com/supervisely/supervisely/assets/78355358/b6267060-b5e4-4890-a964-e9327f7f5367" alt="image" width="800">
+<img src="https://github.com/supervisely/supervisely/assets/78355358/c99da33b-dd46-482b-b986-dc5f31f88a73" alt="image" width="800">
 
 This new dataset, termed MVTec LOCO AD, is composed of five object categories relevant to industrial inspection contexts. The authors selected these objects to closely mimic real-world applications. The dataset includes 1772 training images, 304 validation images, and 1568 test images. The authors provide sample images for each category and stress that the training and validation sets exclusively contain anomaly-free images. The test set encompasses both anomaly-free images and images featuring diverse types of logical and structural anomalies. The authors emphasize the independence of the three sets from one another, ensuring distinct physical objects and no overlap between sets.
 
