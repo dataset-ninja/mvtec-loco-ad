@@ -41,7 +41,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://www.mvtec.com/company/research/datasets/mvtec-loco"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 2048364
+PREVIEW_IMAGE_ID: int = 2049371
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/mvtec-loco-ad"
