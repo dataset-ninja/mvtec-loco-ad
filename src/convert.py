@@ -98,8 +98,8 @@ def convert_and_upload_supervisely_project(
             img_size=(img_height, img_wight), labels=labels, img_tags=[tag_class, tag_subfolder]
         )
 
-    tag_logical_anomalies = sly.TagMeta("logical_anomalies", sly.TagValueType.NONE)
-    tag_structural_anomalies = sly.TagMeta("structural_anomalies", sly.TagValueType.NONE)
+    tag_logical_anomalies = sly.TagMeta("logical_anomaly", sly.TagValueType.NONE)
+    tag_structural_anomalies = sly.TagMeta("structural_anomaly", sly.TagValueType.NONE)
     tag_good = sly.TagMeta("good", sly.TagValueType.NONE)
 
     tag_breakfast_box = sly.TagMeta("breakfast_box", sly.TagValueType.NONE)
@@ -113,6 +113,11 @@ def convert_and_upload_supervisely_project(
         sly.TagValueType.ANY_NUMBER,
         applicable_to=sly.TagApplicableTo.OBJECTS_ONLY,
     )
+    # tag_relative_saturation = sly.TagMeta(
+    #     "saturation_threshold_rel",
+    #     sly.TagValueType.ANY_NUMBER,
+    #     applicable_to=sly.TagApplicableTo.OBJECTS_ONLY,
+    # )
     tag_relative_saturation = sly.TagMeta(
         "relative_saturation",
         sly.TagValueType.ONEOF_STRING,

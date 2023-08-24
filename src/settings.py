@@ -146,7 +146,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {
 PAPER: Optional[
     Union[str, List[str]]
 ] = "https://link.springer.com/article/10.1007/s11263-022-01578-9"
-CITATION_URL: Optional[str] = None
+CITATION_URL: Optional[str] = "https://www.mvtec.com/company/research/datasets/mvtec-loco"
 AUTHORS: Optional[List[str]] = [
     "Paul Bergmann",
     "Kilian Batzner",
@@ -161,7 +161,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = "http://www.mvtec.com/"
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
 TAGS: Optional[List[str]] = None
 
-SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = ['test']
+SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = ["test"]
 
 ##################################
 ###### ? Checks. Do not edit #####
@@ -208,8 +208,6 @@ def get_settings():
     settings["slytagsplit"] = SLYTAGSPLIT
     settings["tags"] = TAGS
 
-
     settings["explore_datasets"] = SECTION_EXPLORE_CUSTOM_DATASETS
-
 
     return settings
