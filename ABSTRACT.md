@@ -8,9 +8,16 @@ This new dataset, termed MVTec LOCO AD, is composed of five object categories re
 
 Each category in the dataset adheres to specific logical constraints, and the authors detail the characteristics of each category and the logical rules governing them. The authors illustrate logical defects and provide examples of how violations of these constraints manifest within the dataset's images.
 
+| Category            | # Training images | # Validation images | # Test images (anomaly-free) | # Test images (structural) | # Test images (logical) | # Defect types | Image width | Image height |
+| ------------------- | ----------------- | ------------------- | ---------------------------- | -------------------------- | ----------------------- | -------------- | ----------- | ------------ |
+| Breakfast Box       | 351               | 62                  | 102                          | 90                         | 83                      | 22             | 1600        | 1280         |
+| Screw Bag           | 360               | 60                  | 122                          | 82                         | 137                     | 20             | 1600        | 1100         |
+| Pushpins            | 372               | 69                  | 138                          | 81                         | 91                      | 8              | 1700        | 1000         |
+| Splicing Connectors | 354               | 59                  | 119                          | 85                         | 108                     | 21             | 1700        | 850          |
+| Juice Bottle        | 335               | 54                  | 94                           | 94                         | 142                     | 18             | 800         | 1600         |
+| Total               | 1772              | 304                 | 575                          | 432                        | 561                     | 89             | –          | –           |
 
-
-For model evaluation purposes, authors selected suitable saturation thresholds for each of the 89 individual defect types that occur in our dataset.  
+For model evaluation purposes, authors selected suitable saturation thresholds for each of the 89 individual defect types that occur in our dataset.
 
 <img src="https://github.com/supervisely/supervisely/assets/78355358/f1e25f20-a981-4d8e-85e0-9cc90d73c6d8" alt="image" width="800">
 

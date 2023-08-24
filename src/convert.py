@@ -113,11 +113,6 @@ def convert_and_upload_supervisely_project(
         sly.TagValueType.ANY_NUMBER,
         applicable_to=sly.TagApplicableTo.OBJECTS_ONLY,
     )
-    # tag_relative_saturation = sly.TagMeta(
-    #     "saturation_threshold_rel",
-    #     sly.TagValueType.ANY_NUMBER,
-    #     applicable_to=sly.TagApplicableTo.OBJECTS_ONLY,
-    # )
     tag_relative_saturation = sly.TagMeta(
         "relative_saturation",
         sly.TagValueType.ONEOF_STRING,
