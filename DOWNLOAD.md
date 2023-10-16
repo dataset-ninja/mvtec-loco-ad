@@ -1,6 +1,6 @@
 Dataset **MVTec LOCO AD** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/k/Y/V6/JWbsCl61sHgNGsQUgEXbFcDs5vZWbnXWaVf0sttTNMzk9Ub6upT1czoGJRFWbtvi571gz93oZrGwbUVwr60Sm23WLkTQprSVWf1rFd57s6xvetStD2NCcM74hUjr.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/C/V/xI/JY5i8834hFSPfl11u4W9hhmi0VBghy2YSuiH9p7OiUKsikAZlYWe8x0zjLxhB8BPF0ljwkA00X62KTEIDILutpvWHb0oXPKvVUmc1FRCDZBVpvRIulQcW2cszAqk.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
