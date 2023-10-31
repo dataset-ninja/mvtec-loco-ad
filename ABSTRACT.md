@@ -21,4 +21,4 @@ For model evaluation purposes, authors selected suitable saturation thresholds f
 
 <img src="https://github.com/supervisely/supervisely/assets/78355358/f1e25f20-a981-4d8e-85e0-9cc90d73c6d8" alt="image" width="800">
 
-For an annotated anomaly A, a ***saturation_threshold*** s is selected. Once the overlap of the predicted region with the ground truth A exceeds s, the anomaly segmentation task is considered as solved. A ***relative_saturation***`=True` indicates that the whole area of the ground truth region is taken as the saturation threshold. In particular, this is the case for all structural anomalies in the dataset.
+<span style="font-size: smaller; font-style: italic;">For an annotated anomaly A, a ***saturation_threshold*** s is selected. Once the overlap of the predicted region with the ground truth A exceeds s, the anomaly segmentation task is considered as solved. A ***relative_saturation***`=True` indicates that the whole area of the ground truth region is taken as the saturation threshold. In particular, this is the case for all structural anomalies in the dataset. </span>
