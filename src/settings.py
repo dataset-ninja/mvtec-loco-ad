@@ -32,6 +32,7 @@ CV_TASKS: List[CVTask] = [
     CVTask.SemanticSegmentation(),
     CVTask.ObjectDetection(),
     CVTask.Classification(),
+    CVTask.UnsupervisedLearning(),
 ]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
